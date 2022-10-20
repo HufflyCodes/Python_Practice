@@ -2,8 +2,16 @@
 
 # This super simple script was to automate including a bunchhh of images into a thesis
 
-import os
+## EXAMPLE text to be generated 
 
+# \begin{figure}[]
+#     \centering
+#     \includegraphics[scale=0.5]{PSUThesis/Appendix-C/Figures/1_1.jpg}
+#     \caption{This will be changed, there are just too many images}
+#     \label{}
+# \end{figure}
+
+import os
 
 
 for root, dirs, files in os.walk("C:\\Users\\wnxgo\\Downloads\\Images-20221014T232158Z-001\\Images", topdown=False):
